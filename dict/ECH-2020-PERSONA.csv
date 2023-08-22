@@ -1,0 +1,838 @@
+DESCRIPCIÓN DE VARIABLE,NOMBRE VARIABLE,CÓDIGOS,DESCRIPCIÓN Y OBSERVACIONES
+NÚMERO,NUMERO,,Número de identificación del hogar
+NÚMERO DE PERSONA,NPER,,
+HOGAR,HOGAR,Caso duplicado = 0,
+,,Caso primario = 1,Identificador de caso primario del hogar
+AÑO DE LA ENCUESTA,ANIO,,
+MES DE LA ENCUESTA,MES,,
+DEPARTAMENTO,DPTO,,Código de departamento del 1 al 19 comenzando por Montevideo y continuando alfabéticamente
+NOMBRE DEL DEPARTAMENTO,NOMDPTO,,
+SECCIÓN CENSAL,SECC,,
+SEGMENTO CENSAL,SEGM,,
+LOCALIDAD AGRUPADA,LOC_AGR_13,,Código de las localidades agrupadas donde se releva la ECH según marco censal 2011
+NOMBRE DE LA LOCALIDAD AGRUPADA,NOM_LOC_AGR_13,,Nombre de las localidades agrupadas donde se releva la ECH según marci censal 2011
+CENTRO COMUNAL ZONAL,CCZ,,Para el departamento de Montevideo
+BARRIO,BARRIO,,Para el departamento de Montevideo (urbano)
+NOMBRE DEL BARRIO,NOMBARRIO,,Para el departamento de Montevideo (urbano)
+ESTRATO,ESTRED13,1,Montevideo - Nivel económico bajo
+,,2,Montevideo - Nivel económico medio - bajo
+,,3,Montevideo - Nivel económico medio
+,,4,Montevideo - Nivel económico medio - alto
+,,5,Montevideo - Nivel económico alto
+,,6,Zona metropolitana
+,,7,"Interior Norte (Artigas, Rivera, Cerro Largo, Treinta y Tres)"
+,,8,"Costa Este (Canelones, Maldonado, Rocha)"
+,,9,"Litoral Norte (Salto, Paysandú, Río Negro)"
+,,10,"Litoral Sur (Soriano, Colonia, San José)"
+,,11,"Centro Norte (Tacuarembó, Durazno)"
+,,12,"Centro Sur (Flores, Florida, Lavalleja)"
+REGION_3,REGION_3,1,Montevideo
+,,2,"Interior, localidades de 5000 habitantes o más"
+,,3,"Interior, localidades de menos de 5000 habitantes y zona rural"
+REGION_4,REGION_4,1,Montevideo
+,,2,"Interior, localidades de 5000 habitantes o más"
+,,3,"Interior, localidades de menos de 5000 habitantes"
+,,4,Zona rural
+PONDERADOR DEL MES,PESOMEN,,
+E. DATOS DE LA PERSONA,,,
+E.1 CARACTERÍSTICAS GENERALES,,,
+NUEVO MIEMBRO DEL HOGAR ,E0_CV,1 = Sí / 2 = No / 99= Sin dato,
+NUEVO MIEMBRO DEL HOGAR DEPENDE DEL MISMO FONDO DE ALIMENTACIÓN,E01_CV,1 = Sí / 2 = No / 99= Sin dato,
+PERSONA CONTINUA RESIDIENDO EN EL HOGAR,E1_CV,1 = Sí / 2 = No / 99= Sin dato,
+IDENTIFICACIÓN DEL INFORMANTE,e557,1,"Sí, es la misma persona"
+,,2,"No, responde un miembro de este hogar"
+,,3,"No, responde un miembro calificado de otro hogar"
+,,99,Sin dato
+,e558,N°,Número de persona
+SEXO,e26,1,Hombre
+,,2,Mujer
+,,99,Sin dato
+EDAD,e27,Años,Años cumplidos
+IDENTIDAD DE GÉNERO,e563,1,Mujer
+,,2,Mujer trans
+,,3,Varón
+,,4,Varón trans
+,,5,Otros
+,,6,No sabe/ No contesta
+ASCENDENCIA,e29_1,1 = Sí / 2 = No / 99= Sin dato,Afro o negra
+,e29_2,1 = Sí / 2 = No / 99= Sin dato,Asiática o amarilla
+,e29_3,1 = Sí / 2 = No / 99= Sin dato,Blanca
+,e29_4,1 = Sí / 2 = No / 99= Sin dato,Indígena
+,e29_5,1 = Sí / 2 = No / 99= Sin dato,Otra
+CUÁL CONSIDERA LA PRINCIPAL,e29_6,1,Afro o negra
+,,2,Asiática o amarilla
+,,3,Blanca
+,,4,Indígena
+,,5,Otra
+,,99,Sin dato
+RELACIÓN DE PARENTESCO,e30,1,Jefe/a
+,,2,Esposo/a o compañero/a
+,,3,Hijo/a de ambos
+,,4,Hijo/a sólo del jefe
+,,5,Hijo/a sólo del esposo/a compañero/a
+,,6,Yerno/nuera
+,,7,Padre/madre
+,,8,Suegro/a
+,,9,Hermano/a
+,,10,Cuñado/a
+,,11,Nieto/a
+,,12,Otro pariente
+,,13,Otro no pariente
+,,14,Servicio doméstico o familiar del mismo
+,,99,Sin dato
+E.2 SALUD,,,
+INSTITUCIÓN EN DONDE CUENTA CON DERECHOS PARA ATENDER SU SALUD,e45_CV,1,ASSE
+,,2,Mutualista (IAMC)
+,,3,Seguro Médico Privado 
+,,4,Hospital Policial / Militar
+,,5,Área de salud del BPS
+,,6,Policlínica municipal
+,,7,No cuenta con derechos en ninguna institución
+,,99,Sin dato
+MECANISMO ACCESO ASSE,e45_1_1_CV,1,"A través de Fonasa, miembro de este hogar"
+,,4,"A través de Fonasa, miembro de otro hogar"
+,,2,Por bajos recursos
+,,3,Pagando arancel
+,,5,A través de un miembro de este hogar
+,,6,A través de otro que no es miembro del hogar
+,,99,Sin dato
+,e45_1_1_1_CV,Nº,Número de persona miembro del hogar
+MECANISMO ACCESO IAMC,e45_2_1_CV,1,"A través de Fonasa, miembro de este hogar"
+,,6,"A través de Fonasa, miembro de otro hogar"
+,,2,Paga un miembro de este hogar
+,,5,Paga el empleador de un miembro del hogar
+,,3,"A través de otro que no es miembro del hogar (sin ser Fonasa, incluye exempleador)"
+,,99,Sin dato
+,e45_2_1_1_CV,Nº,Número de persona miembro del hogar
+MECANISMO ACCESO A SEGURO PRIVADO MÉDICO,e45_3_1_CV,1,"A través de Fonasa, miembro de este hogar pagando complemento"
+,,6,"A través de Fonasa, miembro de otro hogar pagando complemento"
+,,2,Paga un miembro de este hogar
+,,5,Paga el empleador de un miembro del hogar
+,,3,"A través de otro que no es miembro del hogar (sin ser Fonasa, incluye exempleador)"
+,,99,Sin dato
+,e45_3_1_1_CV,Nº,Número de persona miembro del hogar
+MECANISMO ACCESO A HOSPITAL POLICIAL/MILITAR,e45_4_1_CV,1,A través de un miembro de este hogar
+,,2,A través de un miembro de otro hogar
+,,99,Sin dato
+,e45_4_1_1_CV,Nº,Número de persona miembro del hogar
+Para todas las personas,,,
+AFILIACIÓN A EMERGENCIA MÓVIL,e46_CV,1 = SÍ / 2 = No,
+QUIÉN PAGA LA CUOTA DE LA EMERGENCIA MÓVIL,e47_CV,1,Está incluida en la cuota mutual
+,,2,Paga un miembro de este hogar
+,,3,Paga un miembro de otro hogar
+,,4,Paga el empleador de un miembro del hogar
+,e47_1_CV,N°,Número de persona miembro del hogar
+E.3 EDUCACIÓN,,,
+Para personas de 3 años y más,,,
+ASISTENCIA A UN ESTABLECIMIENTO DE ENSEÑANZA,e49_CV,1 = Sí / 2 = No / 99= Sin dato,
+TIPO DE CENTRO EDUCATIVO,e50_CV,1,Público
+,,2,Privado
+Solo para quienes asisten a educación pública o CAIF,,,
+RECIBE ALIMENTACIÓN EN EL CENTRO EDUCATIVO,e196_CV,1 = Sí / 2 = No / 99= Sin dato,
+CANTIDAD DE COMIDAS SEMANALES,e196_1_CV,N°,Desayunos y/o meriendas
+,e196_2_CV,N°,Almuerzos / cenas
+,e196_3_CV,N°,Meriendas
+Solo para quienes asisten a educación pública,,,
+BECAS,e562_CV,1,"Sí, beca MEC"
+,,2,"Sí, Compromiso Educativo"
+,,3,No recibe
+,,99,Sin dato
+E.3 EDUCACIÓN MARCO PRESENCIAL,,,
+SABE LEER Y ESCRIBIR,e48,1 = Sí / 2 = No / 99= Sin dato,
+ASISTENCIA ALGUNA VEZ A UN ESTABLECIMIENTO DE ENSEÑANZA,e49,1 = Sí / 2 = No / 99= Sin dato,
+Para menores de 0 a 2 años,,,
+EDUCACIÓN INICIAL,,,
+ASISTENCIA A EDUCACIÓN INICIAL,e238,1 = Sí / 2 = No / 99= Sin dato,
+TIPO DE CENTRO EDUCATIVO,e239,1,Público
+,,2,Privado
+,,3,CAIF/CAPI/Nuestros niños
+,,99,Sin dato
+CANTIDAD DE DÍAS QUE ASISTE A LA SEMANA,e240_1,N°,
+CANTIDAD DE HORAS AL DÍA,e240_2,N°,
+FALTÓ ALGÚN DÍA,e241,1 = Sí / 2 = No / 99= Sin dato,
+RAZONES POR LAS QUE NO ASISTIÓ,e242,1,Por vacaciones
+,,2,Porque faltó el/la maestro/a
+,,3,Por mal tiempo
+,,4,Por enfermedad
+,,6,Por indisposicion de tercero o responsable
+,,5,Otro
+,,99,Sin dato
+,e242_1,,Descripción
+Para personas de 3 años o más,,,
+EDUCACIÓN PREESCOLAR,,,
+ASISTENCIA A EDUCACIÓN PREESCOLAR,e193,1,Asiste actualmente
+,,2,"Sí, asistió"
+,,3,No asistió
+,,99,Sin dato
+TIPO DE CENTRO EDUCATIVO,e194,1,Público
+,,2,Privado
+,,3,CAIF/CAPI/Nuestros niños
+,,99,Sin dato
+Solo para los que asisten actualmente,,,
+CANTIDAD DE DÍAS QUE ASISTE A LA SEMANA,e243_1,N°,
+CANTIDAD DE HORAS AL DÍA,e243_2,N°,
+FALTÓ ALGÚN DÍA,e244,1 = Sí / 2 = No / 99= Sin dato,
+RAZONES POR LAS QUE NO ASISTIÓ,e245,1,Por vacaciones
+,,2,Porque faltó el/la maestro/a
+,,3,Por mal tiempo
+,,4,Por enfermedad
+,,6,Por indisposición de tercero o responsable
+,,5,Otro
+,e245_1,,Descripción
+Solo para quienes asisten a educación pública o CAIF,,,
+RECIBE ALIMENTACIÓN EN EL CENTRO EDUCATIVO,e196,1 = Sí / 2 = No / 99= Sin dato,
+CANTIDAD DE COMIDAS SEMANALES,e196_1,N°,Desayunos y/o meriendas
+,,99,Sin dato
+,e196_2,N°,Almuerzos / cenas
+,,99,Sin dato
+,e196_3,N°,Meriendas
+,,99,Sin dato
+EDUCACIÓN PRIMARIA,,,
+ASISTENCIA A EDUCACIÓN PRIMARIA,e197,1,Asiste actualmente
+,,2,"Sí, asistió"
+,,3,No asistió
+,,99,Sin dato
+FINALIZÓ EL NIVEL,e197_1,1 = Sí / 2 = No / 99= Sin dato,
+AÑOS APROBADOS EN PRIMARIA COMÚN,e51_2,N°,
+,,99,Sin dato
+AÑOS APROBADOS EN PRIMARIA ESPECIAL,e51_3,N°,
+,,99,Sin dato
+TIPO DE CENTRO EDUCATIVO,e198,1,Público
+,,2,Privado
+,,99,Sin dato
+Solo para quienes asisten a educación pública,,,
+TIPO DE CENTRO EDUCATIVO,e199,1,Común 
+,,2,Tiempo completo
+,,99,Sin dato
+RECIBE ALIMENTACIÓN EN EL CENTRO EDUCATIVO,e200,1 = Sí / 2 = No / 99= Sin dato,
+CANTIDAD DE COMIDAS SEMANALES,e200_1,N°,Desayunos
+,,99,Sin dato
+,e200_2,N°,Almuerzos / cenas
+,,99,Sin dato
+,e200_3,N°,Meriendas
+,,99,Sin dato
+EDUCACIÓN MEDIA,,,
+ASISTENCIA A EDUCACIÓN MEDIA,e201,1,Asiste actualmente
+,,2,"Sí, asistió"
+,,3,No asistió
+,,99,Sin dato
+FINALIZÓ EL NIVEL,e201_1,1 = Sí / 2 = No / 99= Sin dato,
+Para personas entre 12 y 29 años que asistieron y no finalizaron el nivel,,,
+RAZONES POR LAS CUALES NO FINALIZÓ LA EDUCACIÓN MEDIA,e202_1,1 = Sí / 2 = No / 99= Sin dato,Comenzó a trabajar
+,e202_9,1 = Sí / 2 = No / 99= Sin dato,No tenía interés
+,e202_10,1 = Sí / 2 = No / 99= Sin dato,Le interesaba aprender otras cosas
+,e202_3,1 = Sí / 2 = No / 99= Sin dato,Quedó usted o su pareja embarazada
+,e202_4,1 = Sí / 2 = No / 99= Sin dato,Le resultaban difíciles la/s materia/s
+,e202_8,1 = Sí / 2 = No / 99= Sin dato,"Por dificultades económicas (compra de mat. de estudio, etc.)"
+,e202_5,1 = Sí / 2 = No / 99= Sin dato,Porque tuvo que atender asuntos familiares
+,e202_6,1 = Sí / 2 = No / 99= Sin dato,Otras razones
+,e202_6_1,,Descripción
+PRINCIPAL RAZÓN POR LA CUAL NO FINALIZÓ LA EDUCACIÓN MEDIA,e202_7,1,Comenzó a trabajar
+,,9,No tenía interés 
+,,10,Le interesaba aprender otras cosas
+,,3,Quedó usted o su pareja embarazada
+,,4,Le resultaban difíciles la/s materia/s
+,,8,"Por dificultades económicas (compra de mat. de estudio, etc.)"
+,,5,Porque tuvo que atender asuntos familiares
+,,6,Otras razones
+,,99,Sin dato
+Para todas las personas,,,
+AÑOS APROBADOS EN CICLO BÁSICO,e51_4,N°,
+,,99,Sin dato
+TIPO DE CENTRO EDUCATIVO,e210_1,1,Público
+,,2,Privado
+,,99,Sin dato
+AÑOS APROBADOS EN BACHILLERATO,e51_5,N°,
+TIPO DE CENTRO EDUCATIVO,e210_2,1,Público
+,,2,Privado
+,,99,Sin dato
+AÑOS APROBADOS EN BACHILLERATO TECNOLÓGICO,e51_6,N°,
+,,99,Sin dato
+Solo para los que cursan o cursaron Bachillerato tecnológico,,,
+CURSO O CARRERA QUE ESTUDIA / ESTUDIÓ,e209_1,Código,Código del curso o carrera
+TIPO DE CENTRO EDUCATIVO,e210_3,1,Público
+,,2,Privado
+,,99,Sin dato
+RECIBE ALIMENTACIÓN EN EL CENTRO EDUCATIVO,e211,1 = Sí / 2 = No / 99= Sin dato,
+CANTIDAD DE COMIDAS SEMANALES,e211_1,N°,Desayunos
+,,99,Sin dato
+,e211_2,N°,Almuerzos / cenas
+,,99,Sin dato
+,e211_3,N°,Meriendas
+,,99,Sin dato
+BECAS,e562,1,"Sí, beca MEC"
+,,2,"Sí, Compromiso Educativo"
+,,3,No recibe
+,,99,Sin dato
+EDUCACIÓN TÉCNICA,,,
+ASISTENCIA A EDUCACIÓN TÉCNICA,e212,1,Asiste actualmente
+,,2,"Sí, asistió"
+,,3,No asistió
+,,99,Sin dato
+FINALIZÓ EL NIVEL,e212_1,1 = Sí / 2 = No / 99= Sin dato,
+TIPO DE CENTRO EDUCATIVO,e213,1,Público
+,,2,Privado
+,,99,Sin dato
+AÑOS APROBADOS EN EDUCACIÓN TÉCNICA,e51_7,N°,
+,,99,Sin dato
+EXIGENCIA PARA REALIZAR CURSO DE EDUCACIÓN TÉCNICA,e51_7_1,1,Enseñanza secundaria completa
+,,2,"Ciclo Básico, liceo o UTU"
+,,3,Enseñanza primaria completa
+,,4,Ninguna
+,,99,Sin dato
+CURSO O CARRERA QUE ESTUDIA / ESTUDIÓ,e214_1,Código,Código del curso o carrera
+MAGISTERIO O PROFESORADO,,,
+ASISTENCIA A MAGISTERIO O PROFESORADO,e215,1,Asiste actualmente
+,,2,"Sí, asistió"
+,,3,No asistió
+,,99,Sin dato
+FINALIZÓ EL NIVEL,e215_1,1 = Sí / 2 = No / 99= Sin dato,
+TIPO DE CENTRO EDUCATIVO,e216,1,Público
+,,2,Privado
+,,99,Sin dato
+AÑOS APROBADOS EN MAGISTERIO O PROFESORADO,e51_8,N°,
+CURSO O CARRERA QUE ESTUDIA/ESTUDIÓ,e217_1,Código,Código del curso o carrera
+UNIVERSIDAD O SIMILAR,,,
+ASISTENCIA A UNIVERSIDAD O SIMILAR,e218,1,Asiste actualmente
+,,2,"Sí, asistió"
+,,3,No asistió
+,,99,Sin dato
+FINALIZÓ EL NIVEL,e218_1,1 = Sí / 2 = No / 99= Sin dato,
+TIPO DE CENTRO EDUCATIVO,e219,1,Público
+,,2,Privado
+,,99,Sin dato
+AÑOS APROBADOS EN UNIVERSIDAD O SIMILAR,e51_9,N°,
+CURSO O CARRERA QUE ESTUDIA/ESTUDIÓ,e220_1,Código,Código del curso o carrera
+TERCIARIO NO UNIVERSITARIO,,,
+ASISTENCIA A TERCIARIO NO UNIVERSITARIO,e221,1,Asiste actualmente
+,,2,"Sí, asistió"
+,,3,No asistió
+FINALIZÓ EL NIVEL,e221_1,1 = Sí / 2 = No / 99= Sin dato,
+TIPO DE CENTRO EDUCATIVO,e222,1,Público
+,,2,Privado
+,,99,Sin dato
+AÑOS APROBADOS EN TERCIARIO NO UNIVERSITARIO,e51_10,N°,
+CURSO O CARRERA QUE ESTUDIA/ESTUDIÓ,e223_1,Código,Código del curso o carrera
+POSGRADO,,,
+ASISTENCIA A POSGRADO,e224,1,Asiste actualmente
+,,2,"Sí, asistió"
+,,3,No asistió
+,,99,Sin dato
+FINALIZÓ EL NIVEL,e224_1,1 = Sí / 2 = No / 99= Sin dato,
+TIPO DE CENTRO EDUCATIVO,e225,1,Público
+,,2,Privado
+,,99,Sin dato
+AÑOS APROBADOS EN POSGRADO,e51_11,N°,
+CURSO O CARRERA QUE ESTUDIA/ESTUDIÓ,e226_1,Código,Código del curso o carrera
+E.4 POLÍTICAS ALIMENTARIAS,,,
+CONCURRENCIA A COMEDOR,e559,1 = Sí / 2 = No / 99= Sin dato,
+CANTIDAD DE COMIDAS RECIBIDAS SEMANALMENTE,e559_1,N°,Desayunos y/o meriendas
+,e559_2,N°,Almuerzos y/o cenas
+TARJETAS,e560,1 = Sí / 2 = No / 99= Sin dato,Recibe algún tipo de tarjeta
+,e560_1,1 = Sí / 2 = No / 99= Sin dato,Tus-MIDES
+,e560_1_1,N°,Cantidad recibida el mes anterior
+,e560_2,1 = Sí / 2 = No / 99= Sin dato,Tus-INDA
+,e560_2_1,N°,Cantidad recibida el mes anterior
+LECHE EN POLVO,e561,1 = Sí / 2 = No / 99= Sin dato,Recibe leche en polvo (TUS-INDA)
+,e561_1,N°,Quilos que recibe mensualmente
+RECIBE ALGÚN TIPO DE CANASTA,e59,1 = Sí / 2 = No / 99= Sin dato,
+TIPO DE CANASTA,e246,7,Celíaco
+,,14,"Canasta MIDES (UCC,INDA, emergencia)"
+,,11,Otra
+,,99,Sin dato
+CANTIDAD DE CANASTAS MENSUALES,e247,N°,
+F. ACTIVIDAD LABORAL,,,
+F.1 SITUACIÓN OCUPACIONAL ACTUAL,,,
+Para personas de 14 años o más,,,
+TRABAJÓ LA SEMANA PASADA,f269,1 = Sí / 2 = No / 99= Sin dato,
+COLABORÓ EN NEGOCIO FAMILIAR O TRABAJO CONCRETO LA SEMANA PASADA,f270,1 = Sí / 2 = No / 99= Sin dato,
+,,,
+RECIBIÓ SUELDO,f271,1 = Sí / 2 = No / 99= Sin dato,
+TRABAJO REALIZADO PARA UN NEGOCIO DEL HOGAR,f272,1 = Sí / 2 = No / 99= Sin dato,
+NEGOCIO O ACTIVIDAD POR LA QUE PERCIBE UN PAGO,f273,1 = Sí / 2 = No / 99= Sin dato,
+MOTIVO POR EL CUAL NO TRABAJÓ,f69,1,"Por licencia (vacaciones, enfermedad, estudio, cuidados, etc.)"
+,,2,Por poco trabajo o mal tiempo
+,,3,Por estar en seguro de paro o seguro de desempleo
+,,5,Por atender hijos/as enfermos/as o cuidar hijos
+,,6,Por atender otras personas dependientes del hogar
+,,7,Por huelga o conflicto laboral
+,,8,Por estar suspendido/a
+,,9,Porque me despidieron
+,,10,Suspendido por el COVID-19
+,,11,Por estar en cuarentena por COVID-19
+,,14,Por estar en seguro de paro especial por COVID-19
+,,99,Sin dato
+FUE DESPEDIDO DE SU PUESTO DE TRABAJO,f69_1,1,Si
+,,2,No
+,,3,No sabe
+,,99,Sin dato
+RECIBIÓ SUELDO,f274,1 = Sí / 2 = No / 99= Sin dato,
+TIEMPO EN EL QUE VOLVERÁ A TRABAJAR,f275,1,Dentro de 4 semanas o menos
+,,2,Entre 5 y 12 semanas 
+,,3,En más de 12 semanas
+,,4,No sabe cuándo volverá a trabajar
+,,99,Sin dato
+"SI TERMINARÁN RESTRICCIONES DE PANDEMIA, CREE QUE VOLVERA A SU PUESTO DE TRABAJO",f275_1,1 = Sí / 2 = No / 99= Sin dato,
+REALIZÓ TAREAS AGRÍCOLAS PARA CONSUMO DEL HOGAR,f276,1 = Sí / 2 = No / 99= Sin dato,
+DE LO QUE PRODUCE PARTE SE DESTINA A LA VENTA,f277,1,"Sí, más de la mitad de lo que produce"
+,,2,"Sí, menos de la mitad de lo que produce"
+,,3,"No, nada"
+,,99,Sin dato
+TRABAJOS QUE TIENE,f70,Nº,Cantidad de trabajos que tiene
+F.2 CARACTERÍSTICAS DEL TRABAJO PRINCIPAL,,,
+TAREAS QUE PROPORCIONAN MAYORES INGRESOS,f71_2,Código de tareas,Clasificador Internacional Uniforme de Ocupacion año 2008 (CIUO_08)
+,,9999,Sin dato
+ACTIVIDAD DEL ESTABLECIMIENTO DONDE REALIZA LAS TAREAS,f72_2,Código de actividad,Clasificación Industrial Internacional Uniforme (CIIU) Rev. 4
+,,9999,Sin dato
+CATEGORÍA DE LA OCUPACIÓN,f73,1,Asalariado/a privado/a
+,,2,Asalariado/a público/a
+,,3,Miembro de cooperativa de producción o trabajo
+,,4,Patrón/a
+,,5,Cuenta propia sin local ni inversión
+,,6,Cuenta propia con local o inversión
+,,7,Miembro del hogar no remunerado
+,,8,Trabajador/a de un programa social de empleo
+,,99,Sin dato
+SECTOR PÚBLICO,f74,1,Administración Central
+,,3,Entes Autónomos y Servicios Descentralizados
+,,2,Otros Organismos del 220
+,,4,Gobiernos departamentales
+,,5,Otros
+,,99,Sin dato
+ESTABLECIMIENTO DONDE REALIZA LAS TAREAS PERTENECE A LA EMPRESA QUE LO CONTRATA,f75,1 = Sí / 2 = No / 99= Sin dato,
+A QUÉ SE DEDICA LA EMPRESA QUE LO CONTRATA,f76_2,Código,Clasificación Industrial Internacional Uniforme (CIIU) Rev. 4
+,,9999,Sin dato
+Solo para trabajadores no dependientes,,,
+NEGOCIO CON CONTABILIDAD COMPLETA ,f262,1 = Sí / 2 = No / 99= Sin dato,
+NEGOCIO REGISTRADO ANTE LAS OFICINAS DE IMPUESTOS O DE LA SEGURIDAD SOCIAL,f263,1 = Sí / 2 = No / 99= Sin dato,
+NATURALEZA JURÍDICA DEL NEGOCIO,f264,1,Empresa unipersonal
+,,2,Sociedad de hecho /Sociedad civil
+,,3,Sociedad anónima (S.A.)
+,,4,Sociedad de responsabilidad limitada (S.R.L.) u otras sociedades personales con contrato
+,,5,Cooperativa
+,,6,Otras
+,,7,No tiene
+,,99,Sin dato
+FORMA DE TRIBUTACIÓN,,1,Monotributo
+,,2,Monotributo social (MIDES)
+,f265,3,Pequeña empresa (IVA mínimo)
+,,4,"Servicios personales (IVA, IRPF, y/o IRAE)"
+,,5,"Régimen general (IVA, IRAE, e IP)"
+,,6,Otra forma de tributación
+,,7,No tributa
+,,99,Sin dato
+Para todos los trabajadores,,,
+TAMAÑO  DE LA EMPRESA ,f77,1,Una persona
+,,2,2 a 4 personas
+,,3,5 a 9 personas
+,,6,10 a 19 personas
+,,7,20 a 49 personas
+,,5,50 o más personas
+,,99,in dato
+DÓNDE REALIZA SU TRABAJO,f78,1,En un establecimiento fijo
+,,2,En su vivienda
+,,3,A domicilio
+,,4,"En la calle, en un puesto o lugar fijo"
+,,5,"En la calle, en un puesto móvil"
+,,6,"En la calle, desplazándose"
+,,7,En la vía pública
+,,8,En un predio agropecuario o marítimo
+,,99,Sin dato
+TRABAJO EN EL DEPARTAMENTO,f80,1,Sí
+,,2,No
+,,3,En otro país
+,,99,Sin dato
+,f80_2,Nº,Código de departamento asociado a f80 = 2
+COBRA AGUINALDO,f81,1 = Sí / 2 = No / 99= Sin dato,
+APORTE A CAJA DE JUBILACIONES,f82,1 = Sí / 2 = No / 99= Sin dato,
+CAJA A LA CUAL APORTA,f83,1,BPS
+,,2,BPS y AFAP
+,,3,Policial
+,,4,Militar
+,,5,Profesional
+,,6,Notarial
+,,7,Bancaria
+,,8,En el exterior
+,,99,Sin dato
+"Para asalariados/as privados/as, públicos/as, trabajador/a de un programa social de empleo",,,
+APORTE POR TOTALIDAD DEL SALARIO,f84,1 = Sí / 2 = No / 99= Sin dato,
+"RECONOCIMIENTO DE HORAS EXTRAS MEDIANTE PAGO, COMPENSACIÓN, DÍAS ADICIONALES DE VACACIONES",f266,1,Si
+,,2,No
+,,3,La empresa/la institución no permite realizar horas extras
+,,99,Sin dato
+,f266_1,1,Mediante pago
+,,2,Mediante derecho a compensarlas
+,,3,Mediante días adicionales de vacaciones
+,,99,Sin dato
+,f266_2,1,Cuenta con horario flexible
+,,2,No se las reconocen
+,,99,Sin dato
+VACACIONES ANUALES PAGAS O PAGO LICENCIA NO GOZADA,f267,1 = Sí / 2 = No / 99= Sin dato,
+LICENCIA POR ENFERMEDAD O LESIÓN PAGA,f268,1,Si
+,,2,No
+,,3,No sabe
+,,99,Sin dato
+HORAS TRABAJADAS POR SEMANA,f85,Nº,Cantidad horas 
+HORAS EFECTIVAS DE TRABAJO,f85_1,Nº,Cantidad horas 
+TIENE QUE LLEVAR TRABAJO PARA SU HOGAR (solo para asalariados),f86,1 = Sí / 2 = No / 99= Sin dato,
+CANTIDAD DE HORAS SEMANALES DEDICADAS A ESE TRABAJO EN EL HOGAR (solo para asalariados),f87,Nº,Horas semanales que dedica al trabajo en la casa
+TIEMPO QUE TRABAJA EN FORMA CONTINUA,f88_1,Nº,Meses que hace que trabaja
+,f88_2,Nº,Años que hace que trabaja
+ESTUVO DESOCUPADO EN LOS ÚLTIMOS 12 MESES,f89,1 = Sí / 2 = No / 99= Sin dato,
+F.3 CARACTERÍSTICAS DEL TRABAJO SECUNDARIO,,,
+TAREAS QUE REALIZA EN EL OTRO TRABAJO,f90_2,Código,Clasificador Internacional Uniforme de Ocupacion año 2008 (CIUO_08)
+,,9999,Sin dato
+A QUÉ SE DEDICA EL ESTABLECIMIENTO DONDE REALIZA LAS TAREAS,f91_2,Código,Clasificación Industrial Internacional Uniforme (CIIU) Rev. 4
+,,9999,Sin dato
+CATEGORÍA DE LA OCUPACIÓN,f92,1,Asalariado/a privado/a
+,,2,Asalariado/a público/a
+,,3,Miembro de cooperativa de producción o trabajo
+,,4,Patrón/a
+,,5,Cuenta propia sin local ni inversión
+,,6,Cuenta propia con local o inversión
+,,7,Miembro del hogar no remunerado
+,,8,Trabajador de un programa social de empleo
+,,99,Sin dato
+TAMAÑO  DE LA EMPRESA ,f93,1,Una persona
+,,2,2 a 4 personas
+,,3,5 a 9 personas
+,,6,10 a 19 personas
+,,7,20 a 49 personas
+,,5,50 o más personas
+,,99,Sin dato
+TRABAJO EN EL DEPARTAMENTO,f94,1,Sí
+,,2,No
+,,3,En otro país
+,,3,En otro país
+,,99,Sin dato
+,f94_2,Nº,Código de departamento asociado a f94 = 2
+COBRA AGUINALDO,f95,1 = Sí / 2 = No / 99= Sin dato,
+APORTE A CAJA DE JUBILACIONES,f96,1 = Sí / 2 = No / 99= Sin dato,
+CAJA A LA CUAL APORTA,f97,1,BPS
+,,2,BPS y AFAP
+,,3,Policial
+,,4,Militar
+,,5,Profesional
+,,6,Notarial
+,,7,Bancaria
+,,8,En el exterior
+,,99,Sin dato
+CANTIDAD DE HORAS TRABAJADAS EN OTRAS OCUPACIONES,f98,Nº,Cantidad horas habituales
+HORAS EFECTIVAS TRABAJADAS EN OTRAS OCUPACIONES,f98_1,Nº,Cantidad horas efectivas
+TELETRABAJO HABITUAL,f98_2,1 = Sí / 2 = No / 99= Sin dato,
+TELETRABAJO EN LA SEMANA DE REFERENCIAL,f98_3,1 = Sí / 2 = No / 99= Sin dato,
+F.4 BÚSQUEDA DE OTRO EMPLEO DE LOS OCUPADOS,,,
+BUSCA OTRO TRABAJO,f99,1 = Sí / 2 = No / 99= Sin dato,
+SUSTITUIR O COMPLEMENTAR EL ACTUAL,f100,1,Sustituir
+,,2,Complementar
+,,99,Sin dato
+RAZONES POR LAS CUALES QUIERE OTRO EMPLEO,f101,1,Trabajar más horas
+,,2,Trabajar menos horas
+,,3,Trabajar menos horas para cuidar a sus hijos/as
+,,4,Trabajar menos horas para cuidar personas dependientes del hogar
+,,5,Un empleo más adecuado a su formación
+,,6,El trabajo actual no es estable
+,,7,"Para mejorar las condiciones del trabajo actual (cercanía, clima laboral, etc.)"
+,,8,Mayor ingreso
+,,9,Otros
+,,99,Sin dato
+DESEA TRABAJAR MÁS HORAS,f102,1 = Sí / 2 = No / 99= Sin dato,
+ESTÁ DISPONIBLE PARA TRABAJAR MÁS HORAS,f103,1 = Sí / 2 = No / 99= Sin dato,
+RAZONES POR LAS CUALES NO TRABAJA MÁS HORAS A LA SEMANA,f104,1,Por razones de estudio
+,,2,Por razones de salud
+,,3,Por tener que cuidar niños/as
+,,4,Por tener que cuidar personas dependientes del hogar
+,,5,Porque no consigue más trabajo
+,,6,Por razones personales
+,,99,Sin dato
+Solo para quienes declararon estar disponibles (preg. 78),,,
+QUÉ HIZO PARA TRABAJAR MÁS HORAS,f105,1,"Puso o contestó avisos en diarios, etc."
+,,2,Consultó con agencias de empleo
+,,3,Consultó directamente con el empleador
+,,4,Consultó con amigos o parientes
+,,5,"Hizo trámites, gestionó préstamos, buscó local o campo para establecerse"
+,,6,Consultó por Internet
+,,7,Nada
+,,99,Sin dato
+F.5 BÚSQUEDA DE TRABAJO PARA QUIENES NO TRABAJAN,,,
+DISPONIBILIDAD PARA TRABAJAR,f106,1,"Sí, ahora mismo"
+,,2,"Sí, en otra época del año"
+,,3,No
+,,99,Sin dato
+LA SEMANA PASADA BUSCÓ TRABAJO,f107,1 = Sí / 2 = No / 99= Sin dato,
+RAZONES POR LAS CUALES NO BUSCÓ TRABAJO NI ESTABLECIÓ SU NEGOCIO,f108,1,Está incapacitado físicamente
+,,2,Tiene trabajo que comenzará en los próximos 30 días
+,,3,Está esperando el resultado de gestiones ya emprendidas
+,,4,"Buscó antes, no encontró y dejó de buscar"
+,,5,"No tiene tiempo por su trabajo doméstico, el cuidado de niños/as o personas dependientes"
+,,7,Por motivos de salud temporales
+,,8,Por motivos de estudio
+,,9,Está a la espera de una estación de mayor actividad
+,,10,"Es jubilado, pensionista o muy mayor de edad"
+,,11,No quiere o no necesita trabajar
+,,12,Otras causas
+,,13,No buscó trabajo por la coyuntura de la pandemia
+,,99,Sin dato
+BUSCÓ TRABAJO EN LAS ÚLTIMAS CUATRO SEMANAS,f109,1 = Sí / 2 = No / 99= Sin dato,
+QUÉ HIZO PARA BUSCAR TRABAJO O ESTABLECER SU PROPIO NEGOCIO,f110,1,"Puso o contestó avisos en diarios, etc."
+,,2,Consultó con agencias de empleo
+,,3,Consultó directamente con el empleador
+,,4,Consultó con amigos o parientes
+,,5,"Hizo trámites, gestionó préstamos, buscó local o campo para establecerse"
+,,6,Consultó por Internet
+,,7,Nada
+,,99,Sin dato
+BUSCA TRABAJO CON CONDICIONES ESPECIALES,f111,1 = Sí / 2 = No / 99= Sin dato,
+PRINCIPAL CONDICIÓN QUE REQUIERE,f112,1,Jornada de baja carga horaria
+,,2,Horario especial
+,,3,Acorde a su conocimiento o experiencia
+,,4,Condiciones salariales
+,,5,Condición del lugar de trabajo o personales
+,,6,Horario flexible para atender las necesidades familiares
+,,99,Sin dato
+TIEMPO DE BUSCA DE TRABAJO,f113,Nº,Número de semanas
+REALIZÓ GESTIONES CONCRETAS,f114,1 = Sí / 2 = No / 99= Sin dato,
+REALIZÓ ALGÚN TRABAJO OCASIONAL,f115,1 = Sí / 2 = No / 99= Sin dato,
+F.6 TRABAJOS ANTERIORES DE NO OCUPADOS ,,,
+HA TRABAJADO ANTES,f116,1 = Sí / 2 = No / 99= Sin dato,
+ESTÁ EN SEGURO DE PARO,f117,1 = Sí / 2 = No / 99= Sin dato,
+TIEMPO QUE HACE QUE DEJÓ EL ÚLTIMO EMPLEO,f118_1,Nº,Meses 
+,f118_2,Nº,Años
+TAREAS QUE REALIZABA EN ESA OCUPACIÓN,f119_2,Código,Clasificador Internacional Uniforme de Ocupacion año 2008 (CIUO_08)
+,,9999,Sin dato
+A QUÉ SE DEDICABA O QUÉ PRODUCÍA EL ESTABLECIMIENTO EN QUE REALIZABA SUS TAREAS,f120_2,Código,Clasificación Industrial Internacional Uniforme (CIIU) Rev. 4
+,,9999,Sin dato
+CATEGORÍA DE LA OCUPACIÓN,f121,1,Asalariado/a privado/a
+,,2,Asalariado/a público/a
+,,3,Miembro de cooperativa de producción o trabajo
+,,4,Patrón/a
+,,5,Cuenta propia sin local ni inversión
+,,6,Cuenta propia con local o inversión
+,,7,Miembro del hogar no remunerado
+,,8,Trabajador/a de un programa social de empleo
+,,99,Sin dato
+RAZONES POR LAS CUALES DEJÓ EL TRABAJO,f122,1,Despido
+,,2,Cierre de establecimiento
+,,3,Finalización del contrato
+,,4,Acabó la zafra
+,,5,Mal pago
+,,6,Razones de estudio
+,,7,Razones familiares
+,,8,Se jubiló
+,,9,Renuncia por otras razones 
+,,99,Sin dato
+APORTABA A CAJA DE JUBILACIONES,f123,1 = Sí / 2 = No / 99= Sin dato,
+F.7 PARA LAS PERSONAS DE 14 AÑOS O MÁS ,,,
+CONDICIÓN DE ACTIVIDAD,f124_1,1 = Sí / 2 = No / 99= Sin dato,Jubilado/a
+,f124_2,1 = Sí / 2 = No / 99= Sin dato,Pensionista
+,f124_3,1 = Sí / 2 = No / 99= Sin dato,Rentista
+,f124_4,1 = Sí / 2 = No / 99= Sin dato,Estudiante
+,f124_5,1 = Sí / 2 = No / 99= Sin dato,Quien realiza principalmente los quehaceres del hogar
+TIPO DE PENSIÓN QUE RECIBE,f125,1,Pensión por vejez
+,,2,Pensión por fallecimiento
+,,3,Pensión por invalidez
+,,4,Pensión por el extranjero
+,,5,Pensión a las víctimas de delitos violentos
+,,6,Pensión para hijos de fallecidos por violencia doméstica
+,,7,Pensión Especial Reparadora
+,,8,Pensión Reparatoria Ley Integral para Personas Trans
+,,99,Sin dato
+G. INGRESOS PERSONALES,,,
+G.1 INGRESOS DE TRABAJADORES DEPENDIENTES,,,
+G.1.1 OCUPACIÓN PRINCIPAL (MAYORES INGRESOS),,,
+"Para inactivos y desocupados
+A pesar de que actualmente no tiene un trabajo remunerado , el mes pasado...",,,
+"SUELDOS, JORNALES, AGUINALDO O SALARIO VACACIONAL POR ALGÚN TRABAJO ANTERIOR",g_id_1,1 = Sí / 2 = No / 99= Sin dato,
+"COMISIONES, INCENTIVOS, PAGO DE HORAS EXTRAS, HABILITACIONES U OTRO INGRESO POR ALGÚN TRABAJO ANTERIOR",g_id_2,1 = Sí / 2 = No / 99= Sin dato,
+"ALIMENTOS, BEBIDAS O ALGÚN OTRO TIPO DE RETRIBUCIÓN EN ESPECIE POR ALGÚN TRABAJO ANTERIOR",g_id_3,1 = Sí / 2 = No / 99= Sin dato,
+"Para trabajadores no dependientes
+A pesar de que actualmente no tiene un trabajo en relación de dependencia, el mes pasado recibió..",,,
+"SUELDOS, JORNALES, AGUINALDO O SALARIO VACACIONAL POR ALGÚN TRABAJO ANTERIOR EN RELACIÓN DE DEPENDENCIA",g_id_1a,1 = Sí / 2 = No / 99= Sin dato,
+"COMISIONES, INCENTIVOS, PAGO DE HORAS EXTRAS, HABILITACIONES U OTRO INGRESO POR ALGÚN TRABAJO ANTERIOR EN RELACIÓN DE DEPENDENCIA",g_id_2a,1 = Sí / 2 = No / 99= Sin dato,
+"ALIMENTOS, BEBIDAS O ALGÚN OTRO TIPO DE RETRIBUCIÓN EN ESPECIE POR ALGÚN TRABAJO ANTERIOR EN RELACIÓN DE DEPENDENCIA",g_id_3a,1 = Sí / 2 = No / 99= Sin dato,
+Para todos los trabajadores,,,
+SUELDO O JORNALES LÍQUIDOS,g126_1,$,Valor recibido el mes pasado
+"COMISIONES, INCENTIVOS, HORAS EXTRAS, HABILITACIONES",g126_2,$,Valor recibido el mes pasado
+VIÁTICOS NO SUJETOS A RENDICIÓN,g126_3,$,Valor recibido el mes pasado
+PROPINAS,g126_4,$,Valor recibido el mes pasado
+AGUINALDO,g126_5,$,Valor recibido el mes pasado
+SALARIO VACACIONAL,g126_6,$,Valor recibido el mes pasado
+PAGOS ATRASADOS,g126_7,$,Valor recibido el mes pasado
+BOLETOS DE TRANSPORTE,g126_8,$,Valor recibido el mes pasado
+FORMA EN QUE PERCIBIÓ LOS INGRESOS,g250_1,1 = Sí / 2 = No / 99= Sin dato,En efectivo / cheque
+,g250_2,1 = Sí / 2 = No / 99= Sin dato,Depósito en cuenta bancaria
+,g250_3,1 = Sí / 2 = No / 99= Sin dato,Giros o transferencias bancarias
+,g250_4,1 = Sí / 2 = No / 99= Sin dato,Giros o transferencias no bancarias
+,g250_5,1 = Sí / 2 = No / 99= Sin dato,"Tarjeta prepaga (DeANDA, Midinero, etc.)"
+RECIBIÓ ALIMENTOS O BEBIDAS,g127,1 = Sí / 2 = No / 99= Sin dato,
+,g127_1,Nº,Cantidad de desayunos / meriendas
+,g127_2,Nº,Cantidad de almuerzos / cenas
+,g127_3,$,Otros - Monto estimado
+RECIBIÓ TIQUES DE ALIMENTACIÓN,g128,1 = Sí / 2 = No / 99= Sin dato,
+,g128_1,$,Valor recibido el mes pasado
+RECIBIÓ VIVIENDA O ALOJAMIENTO,g129,1 = Sí / 2 = No / 99= Sin dato,
+,g129_1,1 = Sí / 2 = No / 99= Sin dato,En el medio urbano
+,g129_2,$,Monto que habría tenido que pagar por ese alojamiento
+RECIBIÓ OTRO TIPO DE RETRIBUCIÓN EN ESPECIE,g130,1 = Sí / 2 = No / 99= Sin dato,
+,g130_1,$,Monto que habría tenido que pagar por esos bienes
+RECIBIÓ ALGÚN OTRO TIPO DE COMPLEMENTO PAGADO POR EL EMPLEADOR,g131,1 = Sí / 2 = No / 99= Sin dato,
+,g131_1,$,Monto percibido 
+Para el trabajador agropecuario,,,
+DERECHO A PASTOREO,g132,1,Sí
+,,2,No
+,,3,No corresponde
+,,99,Sin dato
+,g132_1,Nº,Vacunos
+,g132_2,Nº,Ovinos
+,g132_3,Nº,Equinos
+DERECHO A CULTIVO PARA CONSUMO PROPIO ,g133,1 = Sí / 2 = No / 99= Sin dato,
+,g133_1,$,Monto que habría tenido que pagar por esos productos
+,g133_2,$,Monto percibido por la venta de esos productos
+G.1.2 OTRAS OCUPACIONES EN RELACIÓN DE DEPENDENCIA,,,
+Para ocupados con un trabajo,,,
+INGRESOS DEL MES ANTERIOR POR ALGÚN OTRO EMPLEO ASALARIADO,g_st_1,1 = Sí / 2 = No / 99= Sin dato,
+SUELDO O JORNALES LÍQUIDOS,g134_1,$,Valor recibido el mes pasado
+"COMISIONES, INCENTIVOS, HORAS EXTRAS, HABILITACIONES",g134_2,$,Valor recibido el mes pasado
+VIÁTICOS NO SUJETOS A RENDICIÓN,g134_3,$,Valor recibido el mes pasado
+PROPINAS,g134_4,$,Valor recibido el mes pasado
+AGUINALDO,g134_5,$,Valor recibido el mes pasado
+SALARIO VACACIONAL,g134_6,$,Valor recibido el mes pasado
+PAGOS ATRASADOS,g134_7,$,Valor recibido el mes pasado
+BOLETOS DE TRANSPORTE,g134_8,$,Valor recibido el mes pasado
+FORMA EN QUE PERCIBIÓ LOS INGRESOS,g251_1,1 = Sí / 2 = No / 99= Sin dato,En efectivo / cheque
+,g251_2,1 = Sí / 2 = No / 99= Sin dato,Depósito en cuenta bancaria
+,g251_3,1 = Sí / 2 = No / 99= Sin dato,Giros o transferencias bancarias
+,g251_4,1 = Sí / 2 = No / 99= Sin dato,Giros o transferencias no bancarias
+,g251_5,1 = Sí / 2 = No / 99= Sin dato,"Tarjeta prepaga (DeANDA, Midinero, etc.)"
+RECIBIÓ ALIMENTOS O BEBIDAS,g135,1 = Sí / 2 = No / 99= Sin dato,
+,g135_1,Nº,Cantidad de desayunos / meriendas
+,g135_2,Nº,Cantidad de almuerzos / cenas
+,g135_3,$,Otros - Monto estimado
+RECIBIÓ TIQUES DE ALIMENTACIÓN,g136,1 = Sí / 2 = No / 99= Sin dato,
+,g136_1,$,Valor recibido el mes pasado
+RECIBIÓ VIVIENDA O ALOJAMIENTO,g137,1 = Sí / 2 = No / 99= Sin dato,
+,g137_1,1 = Sí / 2 = No / 99= Sin dato,En el medio urbano
+,g137_2,$,Monto que habría tenido que pagar por ese alojamiento
+RECIBIÓ OTRO TIPO DE RETRIBUCIÓN EN ESPECIE,g138,1 = Sí / 2 = No / 99= Sin dato,
+,g138_1,$,Monto que habría tenido que pagar por esos bienes
+RECIBIÓ ALGÚN OTRO COMPLEMENTO PAGADO POR EL EMPLEADOR,g139,1 = Sí / 2 = No / 99= Sin dato,
+,g139_1,$,Monto percibido
+Para el trabajador agropecuario,,,
+DERECHO A PASTOREO,g140,1,Sí
+,,2,No
+,,3,No corresponde
+,g140_1,Nº,Vacunos
+,g140_2,Nº,Ovinos
+,g140_3,Nº,Equinos
+DERECHO A CULTIVO PARA CONSUMO PROPIO,g141,1 = Sí / 2 = No / 99= Sin dato,
+,g141_1,$,Monto que habría tenido que pagar por esos productos
+,g141_2,$,Monto percibido por la venta de esos productos
+G.2 INGRESOS DEL TRABAJADOR NO DEPENDIENTE (NEGOCIOS PROPIOS),,,
+RETIRO PARA GASTOS DEL HOGAR DE NEGOCIOS QUE TIENE O TENÍA,g_itnd_1,1 = Sí / 2 = No / 99= Sin dato,
+,g142,$,
+DISTRIBUCIÓN DE UTILIDADES POR NEGOCIO QUE TIENE O TENÍA,g_itnd_2,1 = Sí / 2 = No / 99= Sin dato,
+,g143,,
+RETIRO DE PRODUCTOS PARA CONSUMO PROPIO (trabajador no agropecuario),g144,1 = Sí / 2 = No / 99= Sin dato,
+,g144_1,$,Monto que habría tenido que pagar por esos bienes
+RETIRO DE PRODUCTOS PARA CONSUMO PROPIO (trabajador agropecuario),g144_2_1,$,Valor de lo consumido en carnes o chacinados
+,g144_2_2,$,Valor de lo consumido en lácteos
+,g144_2_3,$,Valor de lo consumido en huevos y aves
+,g144_2_4,$,Valor de lo consumido en productos de la huerta
+,g144_2_5,$,Valor consumido en otros alimentos
+Si es negocio agropecuario,,,
+RECIBIÓ INGRESOS POR MEDIANERÍA O APARCERÍA,g_itnd_3,1,Sí
+,,2,No
+,,3,No corresponde
+,,99,Sin dato
+INGRESO POR MEDIANERÍA O APARCERÍA,g145,$,
+INGRESO POR PASTOREO,g146,$,
+INGRESO POR GANADO A CAPITALIZACIÓN,g147,$,
+G.3 INGRESOS POR TRANSFERENCIAS,,,
+JUBILACIONES,,,
+RECIBIÓ INGRESOS POR JUBILACIONES,g_it_1,1 = Sí / 2 = No / 99= Sin dato,
+BPS - CAJA INDUSTRIA Y COMERCIO,g148_1_1,$,
+BPS - CAJA CIVIL Y ESCOLAR,g148_1_2,$,
+BPS - RURAL Y SERVICIO DOMÉSTICO,g148_1_3,$,
+UNIÓN POSTAL,g148_1_4,$,
+POLICIAL,g148_1_5,$,
+MILITAR,g148_1_6,$,
+PROFESIONAL,g148_1_7,$,
+NOTARIAL,g148_1_8,$,
+BANCARIA,g148_1_9,$,
+AFAP (ingresos provenientes únicamente de alguna AFAP),g148_1_12,$,
+OTRA ,g148_1_10,$,
+OTRO PAÍS,g148_1_11,$,
+PENSIONES,,,
+RECIBIÓ INGRESOS POR PENSIONES,g_it_2,1 = Sí / 2 = No / 99= Sin dato,
+BPS - CAJA INDUSTRIA Y COMERCIO,g148_2_1,$,
+BPS - CAJA CIVIL Y ESCOLAR,g148_2_2,$,
+BPS - RURAL Y SERVICIO DOMÉSTICO,g148_2_3,$,
+UNIÓN POSTAL,g148_2_4,$,
+POLICIAL,g148_2_5,$,
+MILITAR,g148_2_6,$,
+PROFESIONAL,g148_2_7,$,
+NOTARIAL,g148_2_8,$,
+BANCARIA,g148_2_9,$,
+AFAP (ingresos provenientes únicamente de alguna AFAP),g148_2_12,$,
+OTRA ,g148_2_10,$,
+OTRO PAÍS,g148_2_11,$,
+SEGURO DE DESEMPLEO,g148_3,$,
+"COMPENSACIONES POR ACCIDENTE, MATERNIDAD O ENFERMEDAD",g148_4,$,
+"BECAS, SUBSIDIOS, DONACIONES",g148_5_1,$,Del país
+,g148_5_2,$,Del extranjero
+COBRA HOGAR CONSTITUIDO,g149,1 = Sí / 2 = No / 99= Sin dato,
+,g149_1,1 = Sí / 2 = No / 99= Sin dato,Declarado en el sueldo
+COBRA ASIGNACIONES FAMILIARES,g150,1 = Sí / 3 = No / 99= Sin dato,
+RECIBE LAS ASIGNACIONES POR EL PLAN DE EQUIDAD/MIDES,g255,1 = Sí / 2 = No / 99= Sin dato,
+FORMA DE COBRO DE LAS ASIGNACIONES FAMILIARES,g256,1,Incluidas en el sueldo
+,,2,Por separado del sueldo en un local de cobro
+,,99,Sin dato
+FRECUENCIA DE COBRO DE ASIGNACIONES FAMILIARES,g152,1,Todos los meses
+,,2,Cada dos meses
+,,99,Sin dato
+CANTIDAD DE ASIGNACIONES FAMILIARES,g151_6,N°,"Prenatales, menores de 6 años que no están en Primaria y/o menores que están en Primaria"
+,,,
+,g151_3,N°,Menores que están en Secundaria / UTU
+,g151_4,N°,Personas con discapacidad
+MONTO PERCIBIDO POR ASIGNACIONES FAMILIARES,g257,$,Monto percibido el mes pasado
+RECIBE PENSIÓN ALIMENTICIA O ALGUNA CONTRIBUCIÓN POR DIVORCIO O SEPARACIÓN,g153,1 = Sí / 2 = No / 99= Sin dato,
+,g153_1,$,Del país
+,g153_2,$,Del extranjero
+G.4 OTROS INGRESOS,,,
+DEVOLUCIÓN DE FONASA,g258,1 = Sí / 2 = No / 99= Sin dato,
+,g258_1,$,Monto percibido en los últimos 12 meses
+OTRO INGRESO CORRIENTE ADEMÁS DE LOS DECLARADOS,g154,1 = Sí / 2 = No / 99= Sin dato,
+,g154_1,$,Monto que cobró el mes pasado
+VARIABLES AGREGADAS EN PERSONAS,,,
+CONDICIÓN DE ACTIVIDAD ECONÓMICA,pobpcoac,1,Menores de 14 años
+,,2,Ocupados
+,,3,Desocupados buscan trabajo por primera vez
+,,4,Desocupados propiamente dichos
+,,5,Desocupados en seguro de paro
+,,6,"Inactivo, realiza quehaceres del hogar"
+,,7,"Inactivo, estudiante"
+,,8,"Inactivo, rentista"
+,,9,"Inactivo, pensionista"
+,,10,"Inactivo, jubilado"
+,,11,"Inactivo, otro"
+TRABAJADOR SUBEMPLEADO ,subempleo,1,Subempleado
+TIPO DE OCUPADO,TIPO_OCUPADO,1,Ocupado trabajando
+,,2,Ocupado ausente
+CUOTA MUTUAL,mto_cuota,$,Valor de la cuota mutual
+CUOTA EMERGENCIA MÓVIL,mto_emer,$,Valor emergencia móvil
+HOGAR CONSTITUIDO,mto_hogcon,$,Valor del hogar constituido
+MONTO DESAYUNO O MERIENDA,mto_desay,$,Valor de desayuno o merienda
+MONTO ALMUERZO,mto_almue,$,Valor del almuerzo
+VACA DE PASTOREO,mto_vacas,$,Valor de una vaca de pastoreo
+OVEJA DE PASTOREO,mto_oveja,$,Valor de una oveja de pastoreo
+CABALLO DE PASTOREO,mto_caball,$,Valor de un caballo de pastoreo
+CELÍACOS,indaceliac,$,Valor de la canasta celíacos de INDA
+CANASTA MIDES,indaemer,$,"Valor de la canasta genérica MIDES (UCC, INDA, Emergencia, etc.)"
+MONTO LECHE EN POLVO,lecheenpol,$,
+TOTAL DE INGRESOS PERSONALES,PT1,$,
+INGRESOS DE LA OCUPACIÓN PRINCIPAL,PT2,$,
+TOTAL DE INGRESOS POR TRABAJO,PT4,$,
+POBREZA SEGÚN METODOLOGÍA 2006,pobre06,0,No pobre
+,,1,Pobre
+INDIGENCIA SEGÚN METODOLOGÍA 2006,indigente06,0,No indigente
+,,1,Indigente

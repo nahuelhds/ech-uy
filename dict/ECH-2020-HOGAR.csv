@@ -1,0 +1,85 @@
+DESCRIPCIÓN DE LA VARIABLE,NOMBRE VARIABLE,CÓDIGO,DESCRIPCIÓN Y OBSERVACIONES
+HOGAR. IDENTIFICACIÓN,,,
+D. HOGAR,,,
+RESIDEN EN HOGAR MISMAS PERSONAS QUE EN VISITA ANTERIOR,H1_CV,1 = Sí / 2 = No / 99=Sin dato,
+EL HOGAR CONTINUA EN MISMA VIVIENDA QUE EN VISITA ANTERIOR,H2_CV,1 = Sí / 2 = No / 99=Sin dato,
+TENENCIA DE LA VIVIENDA,H5_CV,1,Propietario/a de la vivienda y el terreno y los está pagando
+,,2,Propietario/a de la vivienda y el terreno y ya los pagó
+,,3,Propietario/a solamente de la vivienda y la está pagando
+,,4,Propietario/a solamente de la vivienda y ya la pagó
+,,5,Inquilino/a o arrendatario/a de la vivienda
+,,6,Ocupante con relación de dependencia
+,,7,Ocupante gratuito y se lo permite el B.P.S.
+,,8,Ocupante gratuito y se lo permite un particular
+,,9,Ocupante sin permiso del propietario/a
+,,10,Miembro de cooperativa de vivienda
+,,99,Sin dato
+H. INGRESOS DEL HOGAR,,,
+RECIBE DINERO DE ALGÚN FAMILIAR U OTRO HOGAR DEL PAÍS,h155,1 = Sí / 2 = No / 99=Sin dato,
+,h155_1,$,Monto
+RECIBE AYUDA EN ESPECIE DE ALGÚN FAMILIAR U OTRO HOGAR DEL PAÍS,h156,1 = Sí / 2 = No / 99=Sin dato,
+,h156_1,$,Monto estimado
+HOGAR ALQUILA PARTE DE LA VIVIENDA QUE HABITA,h252,1 = Sí / 2 = No / 99=Sin dato,
+ALQUILER,h252_1,$,Monto percibido
+PROPIETARIOS DE LA VIVIENDA,h158_1,Nº,Número de persona
+,h158_2,Nº,Número de persona
+PROPIETARIO DE OTRA VIVIENDA O LOCAL,h159,1 = Sí / 2 = No / 99=Sin dato,
+FUERON ALQUILADAS ,h160,1 = Sí / 2 = No / 99=Sin dato,
+,h160_1,$,Monto alquileres del país
+,h160_2,$,Monto alquileres del extranjero
+PROPIETARIO DE CHACRA O CAMPO EN EL QUE NO TRABAJA,h161,1 = Sí / 2 = No / 99=Sin dato,
+FUERON ARRENDADOS,h162,1 = Sí / 2 = No / 99=Sin dato,
+ARRENDAMIENTOS,h163_1,$,Monto arrendamientos del país
+,h163_2,$,Monto arrendamientos del extranjero
+INGRESO POR MEDIANERÍA,h164,$,Monto
+INGRESO POR PASTOREO,h165,$,Monto
+PROPIETARIO DE GANADO A CAPITALIZACIÓN,h227,1 = Sí / 2 = No / 99=Sin dato,
+INGRESO POR GANADO A CAPITALIZACIÓN,h166,$,Monto
+RECIBIÓ INGRESOS POR ALQUILER DE VEHÍCULOS / MAQUINARIA,h269,1 = Sí / 2 = No / 99=Sin dato,
+INGRESO POR ALQUILER DE VEHÍCULOS / MAQ.,h269_1,$,Monto
+DEPÓSITOS BANCARIOS,h167_1,1,Sí y genera intereses
+,,3,Sí y no genera intereses
+,,2,No
+,,99,Sin dato
+INTERESES POR DEPÓSITOS BANCARIOS,h167_1_1,$,Del país
+,h167_1_2,$,Del extranjero
+LETRAS O BONOS,h167_2,1 = Sí / 2 = No / 99=Sin dato,
+INTERESES POR LETRAS O BONOS,h167_2_1,$,Del país
+,h167_2_2,$,Del extranjero
+PRÉSTAMOS A TERCEROS,h167_3,1 = Sí / 2 = No / 99=Sin dato,
+INTERESES POR PRÉSTAMOS A TERCEROS,h167_3_1,$,Del país
+,h167_3_2,$,Del extranjero
+OTROS TÍTULOS,h167_4,1 = Sí / 2 = No / 99=Sin dato,
+INTERESES POR OTROS TÍTULOS,h167_4_1,$,Del país
+,h167_4_2,$,Del extranjero
+PROPIETARIO DE NEGOCIO EN EL QUE NO TRABAJA,h169,1 = Sí / 2 = No / 99=Sin dato,
+RECIBIÓ POR UTILIDADES Y DIVIDENDOS DE ALGÚN NEGOCIO EN EL QUE NO TRABAJA,h170_1,$,Monto utilidades y dividendos del país
+,h170_2,$,Monto utilidades y dividendos del extranjero
+"RECIBIÓ INGRESOS POR MARCAS, PATENTES, DERECHOS DE AUTOR",h271,1 = Sí / 2 = No / 99=Sin dato,
+"INGRESOS POR MARCAS, PATENTES, ETC.",h271_1,$ ,Monto
+RECIBIÓ INDEMNIZACIÓN POR DESPIDO,h171,1 = Sí / 2 = No / 99=Sin dato,
+,h171_1,$,Monto
+,h171_2,N°,Número de persona
+RECIBIÓ ALGUNA COLABORACIÓN ECONÓMICA DE ALGÚN FAMILIAR DEL EXTERIOR,h172,1 = Sí / 2 = No / 99=Sin dato,
+,h172_1,$,Monto
+RECIBIÓ ALGÚN INGRESO EXTRAORDINARIO,h173,1 = Sí / 2 = No / 99=Sin dato,
+,h173_1,$,Monto
+I. EGRESOS DEL HOGAR,,,
+CONTRIBUCIONES POR DIVORCIO O SEPARACIÓN O AYUDAS A OTROS HOGARES,i228,1 = Sí / 2 = No / 99=Sin dato,
+,i174,$,Monto pagado
+CONTRIBUCIONES EN DINERO O EN ESPECIE A OTROS HOGARES,i259,1 = Sí / 2 = No / 99=Sin dato,
+,i175,$,Monto pagado
+VARIABLES AGREGADAS EN HOGAR,,,
+INGRESO TOTAL DEL HOGAR CON VALOR LOCATIVO SIN SERVICIO DOMÉSTICO,ht11,$,
+VALOR LOCATIVO,ht13,$,
+CANTIDAD DE PERSONAS SIN SERVICIO DOMÉSTICO,ht19,Nº,
+INGRESOS DEL HOGAR NO IMPUTABLES A PERSONAS,YHOG,$,
+INGRESO TOTAL DEL HOGAR SIN VALOR LOCATIVO SIN SERVICIO DOMÉSTICO,YSVL,$,
+LÍNEA DE POBREZA,lp_06,,
+LÍNEA DE INDIGENCIA,li_06,,
+POBREZA SEGÚN METODOLOGÍA 2006,pobre06,0,No pobre
+,,1,Pobre
+INDIGENCIA SEGÚN METODOLOGÍA 2006,indigente06,0,No indigente
+,,1,Indigente
+,,,
+INE - División Estadísticas Sociodemográficas. ECH 2020 CONTINGENCIA,,,
